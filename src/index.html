@@ -4,34 +4,279 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- link output.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./output.css">
 </head>
 <body>
-<header></header>
-<!-- header end -->
-<main>
-   <section id="home"></section>
-   <!-- SECTION HOME END -->
-
-   <section id="about"></section>
-   <!-- SECTION ABOUT END -->
-
-   <section id="products"></section>
-   <!-- SECTION PRODUCTS END -->
-
-   <section id="features"></section>
-   <!-- SECTION FEATURES END -->
-
-   <section id="process"></section>
-   <!-- SECTION PROCESS END -->
-
-   <section id="journey"></section>
-   <!-- SECTION JOURNEY END -->
-
-</main>
-<footer id="footer"></footer>
-   <!-- SECTION FOOTER END -->
-
+    <header class="w-screen bg-[#B1AAA91A]">
+        <nav class="w-screen max-w-[1138px]  m-auto flex justify-between items-center gap-[10px] py-[10px]">
+           <div>
+              <a href="#"><img src="./images/logotip.svg" alt="logotip"></a>
+           </div>
+           <div>
+            <ul class="flex gap-[30px] text-[16px] font-[400] text-[#122118] leading-[18px]">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li> 
+                <li><a href="#features">Features <i class="bi bi-chevron-down"></i></a></li>
+                <li><a href="#products">Blog <i class="bi bi-chevron-down"></i></a></li>
+                <li><a href="#journey">Portfolio</a></li>
+            </ul>
+           </div>
+           <div>
+            <a href="#" class="py-[13px] px-[46.5px] rounded-[10px] bg-[#FF3F15] text-[16px] text-[#fff] leading-[20px] font-[400]">Get a Quote</a>
+           </div>
+        </nav>
+     </header>
+     <!-- header end -->
+     <main>
+        <section id="home" class="w-screen bg-[#B1AAA91A]">
+            <div class="max-w-[1138px] flex mx-auto items-center justify-between">
+                <div>
+                    <small class="text-[14px] text-[#261A18] leading-[16.44px] font-[400]">BUILD YOUR PLAN</small>
+                    <h1 class="mt-[10px] text-[60px] leading-[70px] text-[#261A18] font-[800] w-screen max-w-[473px] ">
+                        Everything you
+                        need to run your
+                        online business
+                    </h1>
+                    <p class="mt-[20px] text-[16px] font-[400] leading-[26px] text-[#B1AAA9] max-w-[412px] w-screen">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Imperdiet tempus felis vitae sit est quisque.
+                    </p>
+                  <div class="flex gap-[30px] items-center mt-[30px]">
+                    <button class=" px-[26px] py-[13px] rounded-[10px] bg-[#FF3F15] text-[16px] font-[400] leading-[26px] text-[#ffffff]"> Get Started <span class="text-[16px] font-[400] leading-[26px] text-[rgba(255,255,255,0.5)]">- For Free</span></button>
+                    <a href="#" class="flex items-center gap-[10px] text-[16px] font-[400] leading-[26px] text-[#B1AAA9] "><img src="./images/watch-video.svg" alt="icon video"> Watch Demo</a>
+                  </div>
+                </div>
+                <div>
+                    <img src="./images/hero-image.png" alt="man picture ">
+                </div>
+            </div>
+        </section>
+        <div class="w-screen py-[100px]">
+         <div class="max-w-[1138px] m-auto flex justify-between items-center">
+            <p class="text-[22px] text-[#261A18] leading-[30px] font-[700] w-screen max-w-[233px]">
+               Trusted by companies
+               all over the world
+            </p>
+            <a href="#"><img src="./images/intrax.svg" alt="icon"></a>
+            <a href="#"><img src="./images/puma.svg" alt="icon"></a>
+            <a href="#"><img src="./images/rotary.svg" alt="icon"></a>
+            <a href="#"><img src="./images/slack.svg" alt="icon"></a>
+            <a href="#"><img src="./images/hubspot.svg" alt="icon"></a>
+         </div>
+        </div>
+        <!-- SECTION HOME END -->
+  
+        <section id="about" class="w-screen py-[50px]" >
+            <div class="max-w-[1140px]  mx-auto ">
+                  <div class="text-center flex flex-col items-center gap-[10px]">
+                   <small class="text-[16px] text-[#261A18] leading-[20px] font-[400]">WHAT IT DOES</small>
+                   <h3 class="text-[40px] text-[#261A18] leading-[46px] font-[700] max-w-[500px]">
+                     Supercharge your online
+                     business development
+                  </h3>
+                  </div>
+            <div class="flex mt-[70px] pb-[50px]">
+               <div>
+                  <img src="./images/top-customers.png" alt="top-customers">
+               </div>
+               <div class="flex flex-col gap-[20px]  ">
+                 <div class="flex bg-white max-w-[602px] gap-[15px] rounded-[10px] px-[26px] py-[26px] shadow-lg hover:shadow-lg">
+                  <div>
+                     <img src="./images/simply.svg" alt="icon simply">
+                  </div>
+                  <div>
+                     <strong class="text-[22px] text-[#261A18] leading-[32px] font-[400]">Simply Copy & Paste</strong>
+                     <p class="text-[16px] text-[#B1AAA9] leading-[22px] font-[400] mt-[15px]">Many desktop publishing packages and web page editors now use for them.</p>
+                  </div>
+                 </div>
+                 <div class="flex max-w-[602px] gap-[15px] rounded-[10px] px-[26px] py-[26px] hover:shadow-lg">
+                  <div>
+                     <img src="./images/easy.svg" alt="icon">
+                  </div>
+                  <div>
+                     <strong class="text-[22px] text-[#261A18] leading-[32px] font-[400]">Easy to Customize</strong>
+                     <p class="text-[16px] text-[#B1AAA9] leading-[22px] font-[400] mt-[15px]">Many desktop publishing packages and web page editors now use for them.</p>
+                  </div>
+                 </div>
+                 <div class="flex max-w-[602px] gap-[15px] rounded-[10px] px-[26px] py-[26px] hover:shadow-lg">
+                  <div>
+                     <img src="./images/vs-code.svg" alt="icon">
+                  </div>
+                  <div>
+                     <strong class="text-[22px] text-[#261A18] leading-[32px] font-[400]">Made with TailwindCSS</strong>
+                     <p class="text-[16px] text-[#B1AAA9] leading-[22px] font-[400] mt-[15px]">Many desktop publishing packages and web page editors now use for them.</p>
+                  </div>
+                 </div>
+               </div>
+            </div>
+            </div>
+        </section>
+        <!-- SECTION ABOUT END -->
+  
+        <section id="products" class="w-screen pb-[300px] pt-[50px]">
+            <div  class="max-w-[1140px]  mx-auto ">
+               <div class="text-center flex flex-col items-center gap-[10px]">
+                  <small class="text-[14px] text-[#261A18] leading-[16px] font-[400]">YOUR PATH TO SUCCESS</small>
+                  <h3 class="text-[40px] text-[#261A18] leading-[46px] font-[700] max-w-[550px] mb-[20px]">
+                     Start building the products
+                     your customers want
+                 </h3>
+                 <small class="text-[16px] text-[#B1AAA9] leading-[26px] font-[400] max-w-[400px]">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  Imperdiet tempus felis vitae sit est quisque.
+               </small>
+                 </div>
+                 <div class="flex flex-wrap mt-[70px] justify-between">
+                  <div class="flex max-w-[336px] flex-col">
+                     <img class="mx-auto mb-[20px]" src="./images/time.svg" alt="logo">
+                     <h2 class="text-[18px] leading-[24px] font-bold text-[#261A18] text-center">Accelerate Time Management</h2>
+                     <p class="max-w-[336px] mt-[10px] text-center text-[16px] leading-[26px] text-[#B1AAA9]">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Luctus cum purus bibendum risus nibh cursus integer dolor, commodo. Amet, aliquam condimentum.
+                     </p>
+                  </div>
+                  <div class="flex max-w-[336px] flex-col">
+                     <img class="mx-auto mb-[20px]" src="./images/improve.svg" alt="logo">
+                     <h2 class="text-[18px] leading-[24px] font-bold text-[#261A18] text-center">Improve Security</h2>
+                     <p class="max-w-[336px] mt-[10px] text-center text-[16px] leading-[26px] text-[#B1AAA9]">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Luctus cum purus bibendum risus nibh cursus integer dolor, commodo. Amet, aliquam condimentum.
+                     </p>
+                  </div>
+                  <div class="flex max-w-[336px] flex-col">
+                     <img class="mx-auto mb-[20px]" src="./images/rise.svg" alt="logo">
+                     <h2 class="text-[18px] leading-[24px] font-bold text-[#261A18] text-center">Rise Capital Online</h2>
+                     <p class="max-w-[336px] mt-[10px] text-center text-[16px] leading-[26px] text-[#B1AAA9]">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Luctus cum purus bibendum risus nibh cursus integer dolor, commodo. Amet, aliquam condimentum.
+                     </p>
+                  </div>
+                 </div>
+            </div>
+        </section>
+        <!-- SECTION PRODUCTS END -->
+  
+        <section id="features" class="w-screen  min-h-[479px] box-content bg-[#B1AAA91A]">
+       <div class="w-screen  max-w-[1140px]  mx-auto min-h-[479px]  relative">
+         <div class="bg-blue-400 max-w-[1140px]  flex justify-between mx-auto ">
+            <div class="flex flex-col gap-[30px]">
+               <div class="w-screen max-w-[560px] bg-white hover:shadow-lg px-[20px] py-[20px] rounded-[20px] absolute top-[-60px]">
+                  <h4 class="text-[18px] leading-[24px] font-[700] text-[#261A18]">“I will refer evreyone.”</h4>
+                  <p  class=" w max-w-[520px] text-[16px] leading-[26px] font-[400] text-[#B1AAA9]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Luctus cum purus bibendum risus nibh cursus integer dolor.</p>
+                  <div class="flex gap-[10px] items-center mt-[13px]">
+                     <span><img src="./images/jerome.png" alt="jerome bell"></span>
+                    <span class="flex flex-col"> 
+                        <h4 class="text-[16px] leading-[24px] font-[700] text-[#261A18]">Jerome Bell</h4>
+                        <p class="text-[14px] leading-[26px] font-[400] text-[#B1AAA9]">Product Manager</p>
+                  </span>
+                  </div>
+               </div>
+               <div class="w-screen max-w-[560px]  bg-white hover:shadow-lg  px-[20px] py-[20px] rounded-[20px] absolute top-[150px] left-[97px]">
+                  <h4 class="text-[18px] leading-[24px] font-[700] text-[#261A18]">“It was great, i will appriciate that.”</h4>
+                  <p  class=" w max-w-[520px] text-[16px] leading-[26px] font-[400] text-[#B1AAA9]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Luctus cum purus bibendum risus nibh cursus integer dolor.</p>
+                  <div class="flex gap-[10px] items-center mt-[13px]">
+                     <span><img src="./images/albert.png" alt="albert"></span>
+                    <span class="flex flex-col"> 
+                        <h4 class="text-[16px] leading-[24px] font-[700] text-[#261A18]">Albert Flores</h4>
+                        <p class="text-[14px] leading-[26px] font-[400] text-[#B1AAA9]">Mitsubishi</p>
+                  </span>
+                  </div>
+               </div>
+               <div class="w-screen max-w-[560px]  bg-white hover:shadow-lg px-[20px] py-[20px] rounded-[20px] absolute bottom-[-60px]">
+                  <h4 class="text-[18px] leading-[24px] font-[700] text-[#261A18]">“You will done a great job keep it up.”</h4>
+                  <p  class=" w max-w-[520px] text-[16px] leading-[26px] font-[400] text-[#B1AAA9]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Luctus cum purus bibendum risus nibh cursus integer dolor.</p>
+                  <div class="flex gap-[10px] items-center mt-[13px]">
+                     <span><img src="./images/annette.png" alt="jerome bell"></span>
+                    <span class="flex flex-col"> 
+                        <h4 class="text-[16px] leading-[24px] font-[700] text-[#261A18]">Annette Black</h4>
+                        <p class="text-[14px] leading-[26px] font-[400] text-[#B1AAA9]">Louis Vuitton</p>
+                  </span>
+                  </div>
+               </div>
+            </div>
+            <div><img class="min-h-[573px] right-0 absolute bottom-0" src="./images/man.png" alt="Man"></div>
+         </div>
+       </div>
+        </section>
+        <!-- SECTION FEATURES END -->
+  
+        <section id="process" class="pt-[224px]">
+            <div class="max-w-[1140px] flex flex-col mx-auto">
+                <h2 class="text-[14px] mb-[10px] mx-auto text-[#261A18] font-normal leading-[16.44px]">WORK PROCESS</h2>
+                <p class="mx-auto font-bold text-[40px] leading-[47px] text-[#261A18]">How it works</p>
+                <small class="mt-[20px] text-[16px] text-center font-normal leading-[26px] text-[#B1AAA9] mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+                   Imperdiet tempus felis vitae sit est quisque.</small>
+                   <div class="flex mt-[70px] gap-[66px] flex-wrap">
+                      <div class="flex max-w-[336px] flex-col">
+                         <img class="mx-auto mb-[20px]" src="./images/idea.svg" alt="logo">
+                         <h2 class="text-[18px] leading-[24px] font-bold text-[#261A18] text-center">Idea Validation</h2>
+                         <p class="max-w-[336px] mt-[10px] text-center text-[16px] leading-[26px] text-[#B1AAA9]">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Luctus cum purus bibendum risus nibh cursus integer dolor,
+                         </p>
+                      </div>
+                      <div class="flex max-w-[336px] flex-col">
+                         <img class="mx-auto mb-[20px]" src="./images/busines.svg" alt="logo">
+                         <h2 class="text-[18px] leading-[24px] font-bold text-[#261A18] text-center">Business Strategy</h2>
+                         <p class="max-w-[336px] mt-[10px] text-center text-[16px] leading-[26px] text-[#B1AAA9]">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Luctus cum purus bibendum risus nibh cursus integer dolor,
+                         </p>
+                      </div>
+                      <div class="flex max-w-[336px] flex-col">
+                         <img class="mx-auto mb-[20px]" src="./images/implevatiin.svg" alt="logo">
+                         <h2 class="text-[18px] leading-[24px] font-bold text-[#261A18] text-center">Idea Validation</h2>
+                         <p class="max-w-[336px] mt-[10px] text-center text-[16px] leading-[26px] text-[#B1AAA9]">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Luctus cum purus bibendum risus nibh cursus integer dolor,
+                         </p>
+                      </div>
+                   </div>
+              </div>
+        </section>
+        <!-- SECTION PROCESS END -->
+  
+        <section id="journey" class="w-screen">
+         <div class="max-w-[1140px] mb-[100px] mt-[150px] gap-[260px] flex rounded-[20px] mx-auto bg-[rgba(177,170,169,0.05)]">
+            <div class="max-w-[617px] pt-[59px] pb-[59px] pl-[40px] pr-[30px] flex flex-col">
+               <h1 class="font-bold mb-[20px] text-[40px] leading-[47px] text-[#261A18">Start your business journey
+                  better with our consulting</h1>
+                  <p class="text-[16px] leading-[26px] text-[#B1AAA9] font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                     Imperdiet tempus felis vitae sit est quisque.</p>
+            </div>
+            <div class="content-center">
+               <button class="px-[31px] py-[13px] rounded-[10px] font-normal text-[16px] leading-[20.11px] text-[#ffffff] bg-[#FF3F15]">Schedule a Meeting</button>
+            </div>
+          </div>
+        </section>
+        <!-- SECTION JOURNEY END -->
+  
+     </main>
+     <footer id="footer">
+      <div class="flex flex-col max-w-[1140px] mx-auto">
+         <div class="flex mb-[36px] items-center justify-between">
+            <img src="./images/logotip.svg" alt="icon">
+            <div class="max-w-[391px] flex gap-[60px]">
+               <a href="">About</a>
+               <a href="">Features</a>
+               <a href="">Blog</a>
+               <a href="">Portfolio</a>
+            </div>
+            <div class="flex gap-[30px]">
+               <a href="#"><i class="bi bi-twitter"></i></a>
+               <a href="#"><i class="bi bi-facebook"></i></a>
+               <a href="#"><i class="bi bi-instagram"></i></a>
+               <a href="#"><i class="bi bi-github"></i></a>
+            </div>
+         </div>
+         <hr>
+         <div class="flex mb-[50px] justify-between mt-[30px]">
+           
+            <p class="text-[16px] max-w-[280px] leading-[26px] text-[#B1AAA9]">© Copyright 2022, All Rights Reserved</p>
+            <div class="max-w-[281px] flex gap-[28px]">
+               <p class="leading-[26px] text-[#B1AAA9] text-[16px] ">Privacy Policy</p>
+               <p class="leading-[26px] text-[#B1AAA9] text-[16px] ">Terms & Conditions</p>
+            </div>
+         </div>
+       </div>
+     </footer>
+        <!-- SECTION FOOTER END -->
+  
 </body>
 </html>
